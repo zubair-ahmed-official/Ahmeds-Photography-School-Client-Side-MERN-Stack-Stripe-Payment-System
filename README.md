@@ -1,4 +1,4 @@
-# Ahmed's Photography School
+# Ahmed-s-Photography-School-Client-Side-MERN-Stack
 Website features:
 1. This website shows the photography instructors and their offered classes,
 2. The instructors can add and update their class,
@@ -12,6 +12,3 @@ Used packages: axios, tanstack-query, react icon, aos, react awesome reveal, mon
 
 # Admin's Email: zubair985@gmail.com
 # Admin's Password: 1310192448@Ahmed
-
-# b712-summer-camp-client-side-Zubair650
-# Ahmed-s-Photography-School-Client-Side-MERN-Stack
