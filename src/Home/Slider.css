@@ -1,0 +1,38 @@
+.sliderHeight
+{
+    height: 630px;
+}
+.carousel-item img {
+    filter: brightness(80%);
+  }
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .carousel-caption p {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  @media screen and (width < 700px)
+  {
+    .sliderHeight
+    {
+      height: 400px;
+    }
+  }
+  

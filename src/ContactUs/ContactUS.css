@@ -1,0 +1,68 @@
+.inputContact {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px; 
+    background-color: rgba(240, 248, 255, 0.121);
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.inputTextArea {
+    margin-top: 5px;
+    padding: 12px;
+    width: 500px;
+    height: 145px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0.121);
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.Contact {
+    margin: 80px 50px 15px 10px;
+}
+
+.contactFlex {
+    margin: 25px 10px 5px 180px;
+    display: flex;
+}
+
+.contactImg {
+    margin: 0 20px 20px 90px;
+    width: 700px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+@media screen and (width < 700px) {
+    .inputContact {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+    }
+
+    .inputTextArea {
+        width: 100%;
+        height: 125px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+    }
+
+    .Contact {
+        margin: 0 20px 20px 20px;
+    }
+
+    .contactFlex {
+        margin: 0;
+        display: block;
+    }
+
+    .contactImg {
+        margin: 10px 0 0 0;
+        width: 100%;
+        height: 300px;
+    }
+}

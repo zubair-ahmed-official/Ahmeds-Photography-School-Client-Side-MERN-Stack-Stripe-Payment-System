@@ -1,0 +1,22 @@
+.navStyle {
+    position: sticky;
+    top: 0px;
+}
+
+.imgSize {
+    height: 36px;
+    width: 45px
+}
+
+@media screen and (width < 700px) {
+
+    .navStyle {
+        position: sticky;
+        top: 0px;
+    }
+
+    .imgSize {
+        height: 25px;
+        width: 30px
+    }
+}
